@@ -1,0 +1,11 @@
+{
+  "name": "meshpilot-sse-negative-fixture",
+  "version": "1.0.0",
+  "description": "Negative fixture: server_type is sse, so stdio GitHub import should reject it.",
+  "server_type": "sse",
+  "sse": {
+    "endpoint": "https://example.invalid/sse",
+    "timeout_seconds": 10
+  }
+}
+
